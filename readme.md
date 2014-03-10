@@ -23,6 +23,10 @@
 
 
 ### history
+##### march 10th, 2014 / 0.0.2
+* removed `req.secure` test in favor of `req.protocol`
+
+
 ##### march 9th, 2014 / 0.0.1
 * initial commit
 

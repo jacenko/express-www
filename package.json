@@ -1,6 +1,6 @@
 {
   "name": "express-nudist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Express middleware to create a \"naked\" (www-less) domain.",
   "main": "index.js",
   "scripts": {
