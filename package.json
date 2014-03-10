@@ -1,0 +1,25 @@
+{
+  "name": "express-nudist",
+  "version": "0.0.1",
+  "description": "Express middleware to create a \"naked\" (www-less) domain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emilioTe/express-nudist.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "naked",
+    "domain"
+  ],
+  "author": "Emilio Testa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilioTe/express-nudist/issues"
+  },
+  "homepage": "https://github.com/emilioTe/express-nudist"
+}
