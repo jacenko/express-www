@@ -1,10 +1,10 @@
-## express-nudist
-[Express](http://expressjs.com/) middleware to create a "naked" (www-less) domain.
+## express-www
+[Express](http://expressjs.com/) middleware for adding "www" to naked domains.
 
 
 
 ### install
-`$ npm install express-nudist`
+`$ npm install express-www`
 
 
 
@@ -14,25 +14,18 @@
 ```javascript
 ...
 
-  .use(express.logger('dev'))
-  .use(require('express-nudist')('example.com'))
+  .use(require('express-www')('example.com'));
 
 ...
 ```
 
 
 
-### history
-##### march 10th, 2014 / 0.0.2
-* removed `req.secure` test in favor of `req.protocol`
+### licence
 
+Copyright (c) 2016, Deniss Jacenko
 
-##### march 9th, 2014 / 0.0.1
-* initial commit
-
-
-
-### license
+### forked license
 Copyright (c) 2014, Emilio Testa
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
