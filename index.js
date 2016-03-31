@@ -8,17 +8,15 @@
  *
  */
 
-
-
 module.exports = function(domain) {
 
   return function(req, res, next) {
-  
+
     if (!req.hostname.match(/^www\./i))
       return res.redirect(req.protocol + '://www.' + domain + req.url);
 
     next();
-  
+
   };
 
 };

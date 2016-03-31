@@ -1,25 +1,26 @@
 {
-  "name": "express-nudist",
+  "name": "express-www",
   "version": "0.0.2",
-  "description": "Express middleware to create a \"naked\" (www-less) domain.",
+  "description": "Express middleware for adding \"www\" to naked domains",
   "main": "index.js",
   "scripts": {
     "test": "null"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/emilioTe/express-nudist.git"
+    "url": "https://github.com/jacenko/express-www.git"
   },
   "keywords": [
     "express",
     "middleware",
     "naked",
-    "domain"
+    "domain",
+    "www"
   ],
-  "author": "Emilio Testa",
+  "author": "Deniss Jacenko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/emilioTe/express-nudist/issues"
+    "url": "https://github.com/jacenko/express-www/issues"
   },
-  "homepage": "https://github.com/emilioTe/express-nudist"
+  "homepage": "https://github.com/jacenko/express-www"
 }
