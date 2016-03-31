@@ -1,8 +1,10 @@
 /*
- * express-nudist
+ * express-www
  *
- * npm: express-nudist
- * github: https://github.com/emilioTe/express-nudist
+ * npm: express-www
+ * github: https://github.com/jacenko/express-www
+ *
+ * Forked from: https://github.com/emilioTe/express-nudist
  *
  */
 
@@ -12,8 +14,8 @@ module.exports = function(domain) {
 
   return function(req, res, next) {
   
-    if (req.host.match(/^www\./i))
-      return res.redirect(req.protocol + '://' + domain + req.url);
+    if (!req.hostname.match(/^www\./i))
+      return res.redirect(req.protocol + '://www.' + domain + req.url);
 
     next();
   
