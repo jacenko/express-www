@@ -13,9 +13,9 @@
 
 ```javascript
 ...
-
-  .use(require('express-www')('example.com'));
-
+  var www = require('express-www');
+...
+  .use(www('example.com'));
 ...
 ```
 
