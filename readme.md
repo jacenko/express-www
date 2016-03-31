@@ -1,5 +1,5 @@
 ## express-www
-[Express](http://expressjs.com/) middleware for adding "www" to naked domains.
+[Express](http://expressjs.com/) middleware for adding www to naked domains.
 
 
 
